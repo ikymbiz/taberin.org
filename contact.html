@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お問い合わせ | ddashpot</title>
+<meta name="description" content="ddashpotへのお問い合わせフォーム。記事内容、取材・寄稿、広告掲載などのお問い合わせはこちらから。">
+<meta name="keywords" content="お問い合わせ,contact">
+<meta property="og:title" content="お問い合わせ | ddashpot">
+<meta property="og:description" content="ddashpotへのお問い合わせフォーム。記事内容、取材・寄稿、広告掲載などのお問い合わせはこちらから。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ddashpot.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600&family=Noto+Serif+JP:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"></span>
+      <span class="brand-text">
+        ddashpot
+        <small>allergy notes</small>
+      </span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">記事一覧</a>
+      <a href="about.html">運営者</a>
+      <a href="contact.html">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="narrow">
+    <div class="tag">— CONTACT</div>
+    <h1>お問い合わせ</h1>
+  </div>
+</section>
+
+<main class="narrow page-body">
+  <p>記事内容のご質問、取材・寄稿のご依頼、広告掲載、その他のご相談などは下記フォームよりお気軽にご連絡ください。3営業日以内を目安にご返信いたします。</p>
+  <p>※医療・治療方針に関する個別のご相談には回答いたしかねます。症状については主治医・専門医療機関にお問い合わせください。</p>
+
+  <h2>お問い合わせフォーム</h2>
+  <form class="form" action="#" method="post" onsubmit="event.preventDefault(); alert('お問い合わせを受け付けました。ご連絡ありがとうございます。'); this.reset();">
+    <div>
+      <label for="name">お名前</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="email">メールアドレス</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="category">お問い合わせ種別</label>
+      <select id="category" name="category" required>
+        <option value="">選択してください</option>
+        <option>記事内容に関するご質問</option>
+        <option>誤情報のご指摘</option>
+        <option>取材・寄稿のご依頼</option>
+        <option>広告・PRのご相談</option>
+        <option>その他</option>
+      </select>
+    </div>
+    <div>
+      <label for="subject">件名</label>
+      <input type="text" id="subject" name="subject" required>
+    </div>
+    <div>
+      <label for="message">お問い合わせ内容</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+    <button type="submit">送信する</button>
+  </form>
+
+  <h2>個人情報の取り扱いについて</h2>
+  <p>お問い合わせフォームよりご提供いただいた個人情報は、お問い合わせへのご返信および当サイトの運営目的にのみ使用いたします。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご確認ください。</p>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <h3>ddashpot</h3>
+      <p>あれるぎーと付き合いながらの暮らしを、もう少しだけ穏やかに。本・食べ物・お店・レシピの記録です。</p>
+    </div>
+    <div class="footer-col">
+      <h4>サイト</h4>
+      <a href="index.html">記事一覧</a>
+      <a href="about.html">運営者情報</a>
+      <a href="contact.html">お問い合わせ</a>
+    </div>
+    <div class="footer-col">
+      <h4>規約</h4>
+      <a href="privacy.html">プライバシーポリシー</a>
+      <a href="disclaimer.html">免責事項</a>
+    </div>
+  </div>
+  <div class="footer-disclaimer">
+    ※当サイトに掲載されている情報は、医療・診断・治療を目的とした専門的助言ではありません。アレルギーの症状・対応については必ず医師・専門医療機関にご相談ください。
+  </div>
+  <div class="footer-base">
+    <span>© 2025 ddashpot. All rights reserved.</span>
+    <span>ddashpot.com</span>
+  </div>
+</footer>
+
+</body>
+</html>
