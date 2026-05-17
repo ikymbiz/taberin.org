@@ -1,13 +1,13 @@
-# ddashpot — あれるぎーと暮らす手帖（公開サイト一式）
+# taberin — あれるぎーと食べる毎日（公開サイト一式）
 
 アレルギー・健康ジャンルのアフィリエイト審査通過用サイト。サーバーにアップロードして公開する側のファイルです。
 
-> 記事を作成・編集するためのadminツールは、**別パッケージ（ddashpot-admin）**として配布されています。adminツールはお手元のPCで動かし、生成された記事HTMLだけをサーバーにアップロードする運用です。
+> 記事を作成・編集するためのadminツールは、**別パッケージ（taberin-admin）**として配布されています。adminツールはお手元のPCで動かし、生成された記事HTMLだけをサーバーにアップロードする運用です。
 
 ## 構成
 
 ```
-ddashpot-site/
+taberin-site/
 ├── index.html              トップページ
 ├── about.html              運営者情報
 ├── contact.html            お問い合わせ
@@ -34,8 +34,8 @@ ddashpot-site/
 ## デプロイ方法
 
 1. ZIPを解凍
-2. `ddashpot-site` フォルダ内のファイルを、サーバーのドキュメントルートにFTPなどでアップロード
-3. `https://ddashpot.com/` で表示確認
+2. `taberin-site` フォルダ内のファイルを、サーバーのドキュメントルートにFTPなどでアップロード
+3. `https://taberin.org/` で表示確認
 4. Google Search Consoleでサイトを登録、`sitemap.xml` を送信
 
 ## 公開前のチェックリスト
@@ -48,7 +48,7 @@ ddashpot-site/
 
 ## 新規記事を追加する流れ
 
-1. お手元のPCでadminツール（`ddashpot-admin`）を起動して記事を作成
+1. お手元のPCでadminツール（`taberin-admin`）を起動して記事を作成
 2. adminツールから記事HTMLをダウンロード
 3. ダウンロードしたファイルを `articles/` フォルダにFTPアップロード
 4. adminツールが生成する「トップページ用カードHTML」を、サーバー上の `index.html` に追記
